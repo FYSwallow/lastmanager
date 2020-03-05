@@ -1,0 +1,881 @@
+{
+	"id": "4d44ac3d-8d58-43e1-8561-1283fc111477",
+	"name": "elm",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"805afa2e-c28c-4d40-9195-6ee384a5aa48",
+		"fb233800-97b7-4b1a-b600-caba35aff628",
+		"c2675cb9-8fa3-440c-b88a-8c2ea6db45d3",
+		"3e30d2d5-b3c8-4d24-bf5c-72a49506a974",
+		"b796ddb8-5529-430c-9e42-e22dd568d7d8",
+		"f78d6815-0f69-494a-9aa4-d27ddd39b23c",
+		"d6f8f299-6a12-4e9e-af74-eef4ccd4425a",
+		"10fd8715-e637-4b9a-8490-fba558807466",
+		"2e6bd39b-3b84-434a-ae40-9be06a43ea0e",
+		"d60c86cb-51b6-4ff5-9dc1-6aa21d442366",
+		"491a99cd-1cd0-4e03-8a0c-ce3a63a0b52f",
+		"2d6f3a7a-588f-4d4c-a6a5-2652932a20b9",
+		"82e6557b-991b-41b0-8fdb-3b7ca279b8af",
+		"87081e38-4ff7-4a46-9e77-52712cdc053a",
+		"0d4bda37-3511-4efa-8cc3-b49de7293a72",
+		"f64c5a95-33f8-47b5-837a-6d1b8baaff3f",
+		"09ae64ac-9d23-4334-bcbc-c4680b9b25e2",
+		"87fd5660-134b-499b-8c51-90a267e63b8d",
+		"5a2fe168-9f69-4b1f-8cdf-acddbf98c0b6",
+		"ea58c6b1-055a-407f-8c4c-9faeeeb396f9",
+		"4dde89e1-ab19-4af3-92ff-d73ab1fc78b8",
+		"179efe97-03ba-4611-9041-b7302897b04a",
+		"5839d201-dc8b-4e88-b348-c20a3435ffe4",
+		"13637173-67e4-48b8-8ec5-945f6514f43e",
+		"01e58658-519b-4294-921b-0d6687c9e022",
+		"feffe1af-54f6-4981-a627-6d165d7efbfb",
+		"c982fdef-b8bf-405e-9d07-357259c772a2",
+		"5b45c3b6-ba7e-40bf-a371-41c7ecfedc34",
+		"e9f36519-0ca9-429f-925b-fbaa8200441b",
+		"2c632c4e-3e9d-47cd-84ed-645dcfa5d016",
+		"55cccfd8-4921-4e50-8435-2d94ffea9541",
+		"2b632806-3850-4eb3-a19b-8e9ecf307458",
+		"cbc8a837-1a70-4e68-ac54-43a31e794140",
+		"49e722d9-f21e-45b9-83f7-6425b88e17b6",
+		"d39fd367-f16f-41c6-b3a3-206e4373d479",
+		"6cd4b60b-870f-447d-87f5-2dc233ac0bfe",
+		"54aca546-1d54-443c-88c6-5652d235395c"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "01e58658-519b-4294-921b-0d6687c9e022",
+			"name": "获取评论分数",
+			"url": "localhost:3000/shopping/ratingScroes/12",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "09ae64ac-9d23-4334-bcbc-c4680b9b25e2",
+			"name": "获取商家属性活动列表",
+			"url": "localhost:3000/shopping/activity",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "0d4bda37-3511-4efa-8cc3-b49de7293a72",
+			"name": "获取商家分类",
+			"url": "localhost:3000/shopping/getCategories",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "10fd8715-e637-4b9a-8490-fba558807466",
+			"name": "添加商铺",
+			"url": "localhost:3000/shopping/addshop",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\"name\": \"刀削面\",\n\"address\": \"一街8号巷5港\",\n\"phone\": 13565448723,\n\"latitude\": \"31.545\",\n\"longitude\": \"101.45\",\n\"category\": \"川菜\",\n\"image_path\": \"123.jpg\",\n\"float_delivery_fee\": 10,\n\"float_minimum_order_amount\": 5\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "13637173-67e4-48b8-8ec5-945f6514f43e",
+			"name": "获取评论列表",
+			"url": "localhost:3000/shopping/ratings/12",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "179efe97-03ba-4611-9041-b7302897b04a",
+			"name": "根据geohash获取详细地位",
+			"url": "localhost:3000/position/geohash/31.12,121.3",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "2b632806-3850-4eb3-a19b-8e9ecf307458",
+			"name": "获取用户信息",
+			"url": "localhost:3000/users/userInfo",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "2c632c4e-3e9d-47cd-84ed-645dcfa5d016",
+			"name": "用户退出",
+			"url": "localhost:3000/users/logout",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "2d6f3a7a-588f-4d4c-a6a5-2652932a20b9",
+			"name": "添加食品",
+			"url": "localhost:3000/cities/addFood",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"name\": \"干煸豆角\",\n\t\"image_path\": \"123.jpg\",\n\t\"specs\":  [{\"specs\": \"默认\",\"packing_fee\": 0,\"price\": 20}],\n\t\"restaurant_id\": 10,\n\t\"category_id\": 1\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "2e6bd39b-3b84-434a-ae40-9be06a43ea0e",
+			"name": "获取餐馆列表（查询功能完善）",
+			"url": "localhost:3000/shopping/restaurantsList?latitude=23.56&longitude=4512",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "latitude",
+					"value": "23.56",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "longitude",
+					"value": "4512",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "3e30d2d5-b3c8-4d24-bf5c-72a49506a974",
+			"name": "管理员退出",
+			"url": "localhost:3000/admin/logout",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "491a99cd-1cd0-4e03-8a0c-ce3a63a0b52f",
+			"name": "获取商店的食品分类",
+			"url": "localhost:3000/shopping/getMenu?restaurant_id=10",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "restaurant_id",
+					"value": "10",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "49e722d9-f21e-45b9-83f7-6425b88e17b6",
+			"name": "删除收货地址",
+			"url": "localhost:3000/users/deleteAddress/3/1",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "4dde89e1-ab19-4af3-92ff-d73ab1fc78b8",
+			"name": "根据浏览器ip地址获取用户地址",
+			"url": "localhost:3000/position/exactaddress",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "54aca546-1d54-443c-88c6-5652d235395c",
+			"name": "更新用户收货地址",
+			"url": "localhost:3000/users/addressUpdate/2",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"address\": \"汉中市\",\n\t\"address_detail\": \"巴赫\",\n\t\"geohash\": \"31.01,102.12\",\n\t\"name\": \"王五\",\n\t\"phone\": \"15362445866\",\n\t\"tag\": \"家\",\n\t\"sex\": \"1\",\n\t\"poi_type\": \"0\",\n\t\"phone_bk\": \"13456223566\",\n\t\"tag_type\": \"2\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "55cccfd8-4921-4e50-8435-2d94ffea9541",
+			"name": "修改用户密码",
+			"url": "localhost:3000/users/changepassword/3",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"username\": \"王五\",\n\t\"oldpassWord\": \"abc123\",\n\t\"newpassword\": \"abc456\",\n\t\"confirmpassword\": \"abc456\",\n\t\"captcha_code\": \"5978\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "5839d201-dc8b-4e88-b348-c20a3435ffe4",
+			"name": "获取商家分类",
+			"url": "localhost:3000/category/shopCategory",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "5a2fe168-9f69-4b1f-8cdf-acddbf98c0b6",
+			"name": "根据城市id获取城市信息",
+			"url": "localhost:3000/position/cities/1",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "5b45c3b6-ba7e-40bf-a371-41c7ecfedc34",
+			"name": "用户登录",
+			"url": "localhost:3000/users/login",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"username\": \"王五\",\n\t\"password\": \"abc123\",\n\t\"captcha_code\": \"4302\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "6cd4b60b-870f-447d-87f5-2dc233ac0bfe",
+			"name": "获取收货地址信息",
+			"url": "localhost:3000/users/addressDetail/3",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "805afa2e-c28c-4d40-9195-6ee384a5aa48",
+			"name": "管理员注册",
+			"url": "localhost:3000/admin/register",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"user_name\":\"张三\",\n\t\"password\": \"123\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "82e6557b-991b-41b0-8fdb-3b7ca279b8af",
+			"name": "搜索餐馆",
+			"url": "localhost:3000/shopping/searchRestaurants?geohash=31.11,10123&keyword=川",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "geohash",
+					"value": "31.11,10123",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "keyword",
+					"value": "川",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "87081e38-4ff7-4a46-9e77-52712cdc053a",
+			"name": "获取餐馆详情",
+			"url": "localhost:3000/shopping/restaurantDetail/10",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "87fd5660-134b-499b-8c51-90a267e63b8d",
+			"name": "根据type类型获取城市列表",
+			"url": "localhost:3000/position/cities?type=group",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "type",
+					"value": "group",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "b796ddb8-5529-430c-9e42-e22dd568d7d8",
+			"name": "获取管理员列表",
+			"url": "localhost:3000/admin/all",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "c2675cb9-8fa3-440c-b88a-8c2ea6db45d3",
+			"name": "获取管理员信息",
+			"url": "localhost:3000/admin/info",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "c982fdef-b8bf-405e-9d07-357259c772a2",
+			"name": "获取验证码",
+			"url": "localhost:3000/users/captchas",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "cbc8a837-1a70-4e68-ac54-43a31e794140",
+			"name": "添加收货地址",
+			"url": "localhost:3000/users/address/3",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"address\": \"汉中市\",\n\t\"address_detail\": \"巴赫\",\n\t\"geohash\": \"31.01,102.12\",\n\t\"name\": \"李四\",\n\t\"phone\": \"15362445866\",\n\t\"tag\": \"家\",\n\t\"sex\": \"1\",\n\t\"poi_type\": \"0\",\n\t\"phone_bk\": \"13456223566\",\n\t\"tag_type\": \"2\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d39fd367-f16f-41c6-b3a3-206e4373d479",
+			"name": "获取收货地址列表",
+			"url": "localhost:3000/users/addressList/3",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "d60c86cb-51b6-4ff5-9dc1-6aa21d442366",
+			"name": "添加商家食品种类",
+			"url": "localhost:3000/shopping/addMenu",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"name\": \"粥\",\n\t\"restaurant_id\": 10\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d6f8f299-6a12-4e9e-af74-eef4ccd4425a",
+			"name": "更新管理员头像",
+			"url": "localhost:3000/admin/update/avatar/1",
+			"description": "",
+			"data": [
+				{
+					"key": "file",
+					"value": "/E:/web/my/reactadminclient/src/assets/images/avatar.jpg",
+					"description": "",
+					"type": "file",
+					"enabled": true
+				}
+			],
+			"dataOptions": null,
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e9f36519-0ca9-429f-925b-fbaa8200441b",
+			"name": "获取所有用户列表",
+			"url": "localhost:3000/users/all",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "ea58c6b1-055a-407f-8c4c-9faeeeb396f9",
+			"name": "搜索地址",
+			"url": "localhost:3000/position/search?keyword=迪士尼&city_id=1",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "keyword",
+					"value": "迪士尼",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "city_id",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "f64c5a95-33f8-47b5-837a-6d1b8baaff3f",
+			"name": "获取配送方式",
+			"url": "localhost:3000/shopping/delivery",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "f78d6815-0f69-494a-9aa4-d27ddd39b23c",
+			"name": "获取管理员总数",
+			"url": "localhost:3000/admin/count",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "fb233800-97b7-4b1a-b600-caba35aff628",
+			"name": "管理员注册",
+			"url": "localhost:3000/admin/login",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n\t\"user_name\":\"张三\",\n\t\"password\": \"123\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "feffe1af-54f6-4981-a627-6d165d7efbfb",
+			"name": "获取评论分类标签",
+			"url": "localhost:3000/shopping/ratingTags/12",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		}
+	]
+}
